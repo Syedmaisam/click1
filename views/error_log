@@ -1,0 +1,5 @@
+[18-Mar-2015 07:33:33 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/clikstt/public_html/click/views/SharePopup.php on line 193
+[18-Mar-2015 07:34:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/clikstt/public_html/click/views/SharePopup.php on line 193
+[18-Mar-2015 07:35:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/clikstt/public_html/click/views/SharePopup.php on line 193
+[24-Mar-2015 09:21:56 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/clikstt/public_html/click/views/SharePopup.php on line 111
+[24-Mar-2015 09:22:09 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/clikstt/public_html/click/views/SharePopup.php on line 111

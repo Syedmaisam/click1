@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /clicksoft/main_test.php
+RewriteRule ^([a-zA-Z0-9]+)$ /clicksoft/main_test.php?$1
+Options -Indexes

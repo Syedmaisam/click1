@@ -1,0 +1,752 @@
+<link rel="stylesheet" href="<?php echo SITE_ROOT_URL; ?>views/layered/animatemaster/animate.min.css">
+<script type="text/javascript" src="<?php echo SITE_ROOT_URL; ?>colorjs/jscolor.js"></script>
+
+<style>
+body
+{
+margin:0px;
+padding:0px;
+}
+.ulp-content {
+    position: relative;
+}
+.ulp-window {
+    text-align: left;
+}
+#ulp-layer-139 {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 30px rgba(32, 32, 32, 1);
+    text-align: left;
+    z-index: 1000002;
+}
+#ulp-layer-139, #ulp-layer-139 p, #ulp-layer-139 a, #ulp-layer-139 span, #ulp-layer-139 li, #ulp-layer-139 input, #ulp-layer-139 button, #ulp-layer-139 textarea {
+    color: #000000;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+ulp-layer img {
+    border: medium none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+}
+img {
+    max-width: 100%;
+}
+#ulp-layer-140 {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    z-index: 1000006;
+}
+#ulp-layer-140, #ulp-layer-140 p, #ulp-layer-140 a, #ulp-layer-140 span, #ulp-layer-140 li, #ulp-layer-140 input, #ulp-layer-140 button, #ulp-layer-140 textarea {
+    color: #000000;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-141 {
+    text-align: center;
+    z-index: 1000007;
+}
+#ulp-layer-141, #ulp-layer-141 p, #ulp-layer-141 a, #ulp-layer-141 span, #ulp-layer-141 li, #ulp-layer-141 input, #ulp-layer-141 button, #ulp-layer-141 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 700;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-142 {
+    background-color: rgba(255, 67, 0, 0.9);
+    text-align: left;
+    z-index: 1000008;
+}
+#ulp-layer-142, #ulp-layer-142 p, #ulp-layer-142 a, #ulp-layer-142 span, #ulp-layer-142 li, #ulp-layer-142 input, #ulp-layer-142 button, #ulp-layer-142 textarea {
+    color: #000000;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-143 {
+    text-align: center;
+    z-index: 1000007;
+}
+#ulp-layer-143, #ulp-layer-143 p, #ulp-layer-143 a, #ulp-layer-143 span, #ulp-layer-143 li, #ulp-layer-143 input, #ulp-layer-143 button, #ulp-layer-143 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-144 {
+    text-align: left;
+    z-index: 1000009;
+}
+#ulp-layer-144, #ulp-layer-144 p, #ulp-layer-144 a, #ulp-layer-144 span, #ulp-layer-144 li, #ulp-layer-144 input, #ulp-layer-144 button, #ulp-layer-144 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+
+#ulp-layer-144 input.ulp-input {
+    padding-left: 34px !important;
+}
+#ulp-ZmwusaSkhcNxxjsL .ulp-input, #ulp-ZmwusaSkhcNxxjsL .ulp-input:hover, #ulp-ZmwusaSkhcNxxjsL .ulp-input:active, #ulp-ZmwusaSkhcNxxjsL .ulp-input:focus {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #ff4300;
+    border-radius: 0 !important;
+    border-width: 2px !important;
+}
+#ulp-layer-144, #ulp-layer-144 p, #ulp-layer-144 a, #ulp-layer-144 span, #ulp-layer-144 li, #ulp-layer-144 input, #ulp-layer-144 button, #ulp-layer-144 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-input {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    border-radius: 2px !important;
+    border-spacing: 0 !important;
+    border-style: solid !important;
+    border-width:2px !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    clear: both !important;
+    font-size: inherit !important;
+    height: 100% !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    padding: 0 6px !important;
+    vertical-align: middle !important;
+    width: 100% !important;
+	border-color:#ff4300;
+}
+input:-moz-read-write, textarea:-moz-read-write {
+    -moz-user-modify: read-write !important;
+}
+input {
+    -moz-appearance: textfield;
+    -moz-binding: url("chrome://global/content/platformHTMLBindings.xml#inputFields");
+    -moz-user-select: text;
+    cursor: text;
+    font: ;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 1px;
+    text-align: start;
+    text-indent: 0;
+    text-rendering: optimizelegibility;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal;
+}
+textarea > .anonymous-div, input > .anonymous-div, input::-moz-placeholder, textarea::-moz-placeholder, *|*::-moz-button-content, *|*::-moz-display-comboboxcontrol-frame, optgroup:before {
+    text-overflow: inherit;
+    unicode-bidi: inherit;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    display: inline-block !important;
+    opacity: 0.54;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    resize: none !important;
+}
+textarea > .anonymous-div, input > .anonymous-div, input::-moz-placeholder, textarea::-moz-placeholder {
+    -moz-control-character-visibility: visible;
+    border: 0 none !important;
+    display: inline-block;
+    ime-mode: inherit;
+    margin: 0;
+    overflow: auto;
+    padding: inherit !important;
+    resize: inherit;
+    text-decoration: inherit;
+    white-space: pre;
+}
+input > .anonymous-div, input::-moz-placeholder {
+    line-height: -moz-block-height;
+    word-wrap: normal !important;
+}
+.ulp-fa-input-table {
+    display: table;
+    height: 100%;
+    left: 0;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+}
+
+#ulp-layer-144 div.ulp-fa-input-cell {
+    padding-left: 4px !important;
+    width: 30px !important;
+}
+.ulp-fa-input-cell {
+    display: table-cell;
+    opacity: 0.7;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+#ulp-layer-145 {
+    text-align: left;
+    z-index: 1000009;
+}
+#ulp-layer-145, #ulp-layer-145 p, #ulp-layer-145 a, #ulp-layer-145 span, #ulp-layer-145 li, #ulp-layer-145 input, #ulp-layer-145 button, #ulp-layer-145 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-145 input.ulp-input {
+    padding-left: 34px !important;
+}
+#ulp-ZmwusaSkhcNxxjsL .ulp-input, #ulp-ZmwusaSkhcNxxjsL .ulp-input:hover, #ulp-ZmwusaSkhcNxxjsL .ulp-input:active, #ulp-ZmwusaSkhcNxxjsL .ulp-input:focus {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #ff4300;
+    border-radius: 0 !important;
+    border-width: 2px !important;
+}
+#ulp-layer-145, #ulp-layer-145 p, #ulp-layer-145 a, #ulp-layer-145 span, #ulp-layer-145 li, #ulp-layer-145 input, #ulp-layer-145 button, #ulp-layer-145 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-input {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    border-radius: 2px !important;
+    border-spacing: 0 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    clear: both !important;
+    font-size: inherit !important;
+    height: 100% !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    padding: 0 6px !important;
+    vertical-align: middle !important;
+    width: 100% !important;
+	
+}
+input:-moz-read-write, textarea:-moz-read-write {
+    -moz-user-modify: read-write !important;
+}
+input {
+    -moz-appearance: textfield;
+    -moz-binding: url("chrome://global/content/platformHTMLBindings.xml#inputFields");
+    -moz-user-select: text;
+    cursor: text;
+    font: ;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 1px;
+    text-align: start;
+    text-indent: 0;
+    text-rendering: optimizelegibility;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal;
+}
+textarea > .anonymous-div, input > .anonymous-div, input::-moz-placeholder, textarea::-moz-placeholder, *|*::-moz-button-content, *|*::-moz-display-comboboxcontrol-frame, optgroup:before {
+    text-overflow: inherit;
+    unicode-bidi: inherit;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    display: inline-block !important;
+    opacity: 0.54;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    resize: none !important;
+}
+textarea > .anonymous-div, input > .anonymous-div, input::-moz-placeholder, textarea::-moz-placeholder {
+    -moz-control-character-visibility: visible;
+    border: 0 none !important;
+    display: inline-block;
+    ime-mode: inherit;
+    margin: 0;
+    overflow: auto;
+    padding: inherit !important;
+    resize: inherit;
+    text-decoration: inherit;
+    white-space: pre;
+}
+input > .anonymous-div, input::-moz-placeholder {
+    line-height: -moz-block-height;
+    word-wrap: normal !important;
+}
+#ulp-layer-145 div.ulp-fa-input-cell {
+    padding-left: 4px !important;
+    width: 30px !important;
+}
+.ulp-fa-input-cell {
+    display: table-cell;
+    opacity: 0.7;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+#ulp-layer-146 {
+    text-align: center;
+    z-index: 1000009;
+}
+#ulp-layer-146, #ulp-layer-146 p, #ulp-layer-146 a, #ulp-layer-146 span, #ulp-layer-146 li, #ulp-layer-146 input, #ulp-layer-146 button, #ulp-layer-146 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+.ulp-inherited:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+#ulp-ZmwusaSkhcNxxjsL .ulp-submit, #ulp-ZmwusaSkhcNxxjsL .ulp-submit:visited {
+    background: none repeat scroll 0 0 #ff4300;
+    border: 1px solid #ff4300;
+    border-radius: 0 !important;
+    box-shadow: -4px -4px 0 rgba(0, 0, 0, 0.1) inset;
+}
+#ulp-layer-146, #ulp-layer-146 p, #ulp-layer-146 a, #ulp-layer-146 span, #ulp-layer-146 li, #ulp-layer-146 input, #ulp-layer-146 button, #ulp-layer-146 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-window a {
+    text-decoration: none !important;
+}
+.ulp-inherited {
+    box-sizing: border-box !important;
+    display: block !important;
+    height: 100% !important;
+}
+.ulp-submit, .ulp-submit:visited, .ulp-submit-button, .ulp-submit-button:visited {
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: inherit !important;
+    height: auto;
+    line-height: 1.5;
+    margin: 0;
+    padding: 5px 20px;
+    position: relative;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.3s;
+    white-space: nowrap;
+    width: auto;
+}
+a, a:active, a:hover {
+    outline: medium none;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+#ulp-layer-146, #ulp-layer-146 p, #ulp-layer-146 a, #ulp-layer-146 span, #ulp-layer-146 li, #ulp-layer-146 input, #ulp-layer-146 button, #ulp-layer-146 textarea {
+    color: #ffffff;
+}
+.ulp-submit, .ulp-submit:visited, .ulp-submit-button, .ulp-submit-button:visited {
+    cursor: pointer;
+    font-size: inherit !important;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+#ulp-layer-147 {
+    text-align: center;
+    z-index: 1000007;
+}
+#ulp-layer-147, #ulp-layer-147 p, #ulp-layer-147 a, #ulp-layer-147 span, #ulp-layer-147 li, #ulp-layer-147 input, #ulp-layer-147 button, #ulp-layer-147 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+	
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-148 {
+    background-color: rgba(255, 67, 0, 0.9);
+    line-height: 32px;
+    text-align: center;
+    z-index: 1000009;
+}
+#ulp-layer-148, #ulp-layer-148 p, #ulp-layer-148 a, #ulp-layer-148 span, #ulp-layer-148 li, #ulp-layer-148 input, #ulp-layer-148 button, #ulp-layer-148 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    position: absolute;
+}
+#ulp-layer-148, #ulp-layer-148 p, #ulp-layer-148 a, #ulp-layer-148 span, #ulp-layer-148 li, #ulp-layer-148 input, #ulp-layer-148 button, #ulp-layer-148 textarea {
+    color: #ffffff;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-window a {
+    text-decoration: none !important;
+}
+a, .contactForm input[type="text"]:focus, .contactForm input[type="email"]:focus, .contactForm textarea:focus, input#formSubmit, .errorForm, #subscribe input[type="email"]:focus, .errorSubs, .servSingle, #toTop i, #notForm input[type="email"]:focus, .contactForm input#submit, #loginForm input, #loginForm input[type="text"]:focus, #loginForm input[type="password"]:focus {
+    transition: all 0.5s ease 0s;
+}
+a, a:active, a:hover {
+    outline: medium none;
+}
+
+.ulp-submit{
+    background: none repeat scroll 0 0 #ff4300;
+    border: 1px solid #ff4300;
+    border-radius: 0 !important;
+    box-shadow: -4px -4px 0 rgba(0, 0, 0, 0.1) inset;
+}
+table
+{
+	margin:20px;
+	background:#f8f8f8;
+	
+}
+table td
+{
+	padding:10px;
+	border:1px solid #ccc;
+}
+table td label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+}
+table td input[type='text']
+{
+	border:none;
+	padding:10px;
+	font-size:12px;
+	font-weight:normal;
+	border:1px solid #ccc;
+	width:300px;
+}
+table td textarea
+{
+	width:300px;
+	font-size:12px;
+}
+#updateform
+{
+	background:#019ad2;
+	color:#fff;
+	font-size:16px;
+	padding:10px;
+	border:1px solid #019ad2;
+	width:100px;
+}
+</style>
+
+
+<?php
+
+
+$txthtml="<div id='popupform' style='position:relative;'><div class='ulp-content ' style='width: 550px; height: 410px; margin: 5% auto auto;'>
+							<div id='ulp-layer-139' class='ulp-layer' style='width: 550px; height: 410px; font-size: 14px; left: 0px; top: 0px; display: block;'><img alt='' src='http://www.cliks.it/click/images/city.jpg' style='width:100%;height:100%;'></div>
+							<div id='ulp-layer-140' class='ulp-layer' style='width: 550px; height: 410px; font-size: 14px; left: 0px; top: 0px; display: block;'></div>
+							<div id='ulp-layer-141' class='ulp-layer animated bounceInDown' style='width: 550px; font-size: 24px; left: 0px; top: 20px;'>ARE YOU READY? GET IT NOW!</div>
+							<div id='ulp-layer-142' class='ulp-layer animated fadeInDown' style='width: 300px; height: 5px; font-size: 14px; left: 125px; top: 70px;'></div>
+							<div id='ulp-layer-143' class='ulp-layer animated fadeInDown' style='width: 550px; font-size: 16px; left: 0px; top: 90px;'>Increase more than 500% of Email Subscribers!</div>
+							<div id='ulp-layer-144' class='ulp-layer animated zoomInLeft' style='width: 480px; height: 42px; font-size: 15px; left: 35px; top: 195px;'><input type='text' onfocus='jQuery(this).removeClass('ulp-input-error');' value='' placeholder='Enter your name...' name='ulp-name' class='ulp-input'><div class='ulp-fa-input-table'><div class='ulp-fa-input-cell'><i class='fa fa-user'></i></div></div></div>
+							<div id='ulp-layer-145' class='ulp-layer animated zoomInRight' style='width: 480px; height: 42px; font-size: 15px; left: 35px; top: 255px;'><input type='text' onfocus='jQuery(this).removeClass('ulp-input-error');' value='' placeholder='Enter your e-mail...' name='ulp-email' class='ulp-input'><div class='ulp-fa-input-table'><div class='ulp-fa-input-cell'><i class='fa fa-envelope'></i></div></div></div>
+							<div id='ulp-layer-146' class='ulp-layer animated slideInDown' style='width: 250px; height: 42px; font-size: 17px; left: 150px; top: 315px;'><a data-loading='PLEASE WAIT!' data-label='SUBSCRIBE NOW!' data-icon='fa-check-square-o' onclick='return ulp_subscribe(this);' class='ulp-submit ulp-inherited'><i class='fa fa-check-square-o'></i>&nbsp; <span id='spnid'>SUBSCRIBE NOW!</span></a></div>
+							<div id='ulp-layer-147' class='ulp-layer animated slideInDown' style='width: 550px; font-size: 13px; left: 0px; top: 370px;'><i class='fa fa-lock'></i> <span id='info'>Your Information will never be shared with any third party.</span></div>
+							<div id='ulp-layer-148' class='ulp-layer' style='width: 32px; height: 32px; font-size: 32px; left: 518px; top: 0px;'><a onclick='return ulp_self_close();' href='#'>x</a></div>
+						</div>
+
+						
+						
+						</div>
+						";
+						echo $txthtml;
+						?>
+						
+                        <div >
+
+<table width="97%" border="0">
+   
+   <tr>
+    <td><label>Layer one Color :</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="layer1_color" onchange="layer1_color();"></td>
+    <td><label>Layer One Text :</label></td>
+    <td><input type="text" value="" id="layer1_txt" onkeyup="layer1_txt();" onblur="layer1_txt();" maxlength="45" /></td>
+    </tr>
+  
+   <tr>
+    <td><label>Placeholder one text :</label></td>
+    <td><input type="text" value="" id="placeholder1_txt" onkeyup="placeholder1_txt();" onblur="placeholder1_txt();"  /></td>
+    <td><label>Placeholder Two text :</label></td>
+    <td><input type="text" value="" id="placeholder2_txt" onkeyup="placeholder2_txt();" onblur="placeholder2_txt();"  /></td>
+    
+  </tr>
+  
+   <tr>
+    <td><label>Layer Two Color :</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="layer2_color" onchange="layer2_color();"></td>
+    <td><label>Layer Two Text :</label></td>
+    <td><input type="text" value="" id="layer2_txt" onkeyup="layer2_txt();" onblur="layer2_txt();" maxlength="50"   /></td>
+  </tr>
+  
+   <tr> 
+   <td><label>Background Image URL :</label></td>
+    <td><input type="text" value="" id="chnagemacurl" onblur="macimgchange(this.value);"  /></td>
+    <td><label>Subscribe Now Color:</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="button1_color" onchange="button1_color();"></td>
+  </tr>
+    
+    
+    <tr>
+    <td><label>Subscribe Now Background Color :</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="button1_bkgcolor" onchange="button1_bkgcolor();"></td>
+    <td><label>Subscribe Now Text :</label></td>
+    <td><input type="text" value="" id="button1_txt" maxlength="25" onkeyup="button1_txt();" onblur="button1_txt();"  /></td>
+  
+  </tr>
+  
+   <tr>
+    <td><label>Layer Four Color :</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="layer4_color" onchange="layer4_color();"></td>
+    <td><label>Layer Four Text :</label></td>
+    <td><input type="text" value="" onkeyup="layer4_txt();" onblur="layer4_txt();" id="layer4_txt" maxlength="100" /></td>
+    
+  </tr>
+  
+   <tr>
+   <td><label>Layer Color :</label></td>
+    <td><input class="color boxcolor" value="66ff00" id="layer3_color" onchange="layer3_color();"></td>
+    <td>Close Button Background</td>
+    <td><input class="color boxcolor" value="66ff00" id="buttonclose_bkgcolor" onchange="buttonclose_bkgcolor();"></td>
+  </tr>
+  
+
+</table>
+</div>              
+
+
+<script type="text/javascript">
+function pop_layer_data()
+{
+	var layer1_txt=$("#ulp-layer-141").html();
+	var layer2_txt=$("#ulp-layer-143").html();
+	var placeholder1_txt=$("#ulp-layer-144 .ulp-input").attr('placeholder');
+	var placeholder2_txt=$("#ulp-layer-145 .ulp-input").attr('placeholder');
+	
+	var button1_txt=$("#ulp-layer-146 .ulp-inherited span").html();
+	var layer4_txt=$("#ulp-layer-147").text();
+
+	$("#layer1_txt").val(layer1_txt);
+	$("#layer2_txt").val(layer2_txt);
+	$("#placeholder1_txt").val(placeholder1_txt);
+	$("#placeholder2_txt").val(placeholder2_txt);
+	$("#button1_txt").val(button1_txt);
+	$("#layer4_txt").val(layer4_txt);
+	 var imgurl=$("#ulp-layer-139 img").attr("src");
+    $("#chnagemacurl").val(imgurl);
+}
+
+						
+						function layer1_color()
+						{
+							var fcolor="#"+$("#layer1_color").val();
+							//alert(bgcolor);
+							$("#ulp-layer-141").css("color",fcolor);
+						}
+						function layer1_txt()
+						{
+							var layer1_txt=$("#layer1_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-141").html(layer1_txt);
+						}
+						function layer2_color()
+						{
+							var fcolor="#"+$("#layer2_color").val();
+							//alert(bgcolor);
+							$("#ulp-layer-143").css("color",fcolor);
+						}
+						function layer2_txt()
+						{
+							var layer2_txt=$("#layer2_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-143").html(layer2_txt);
+						}
+						
+						
+						function layer3_color()
+						{
+							var fcolor="#"+$("#layer3_color").val();
+						   
+							$("#ulp-layer-142").css("background",fcolor);
+						}
+						
+						function placeholder1_txt()
+						{
+							var placeholder1_txt=$("#placeholder1_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-144 .ulp-input").attr('placeholder',placeholder1_txt);
+						}
+						
+					    function placeholder2_txt()
+						{
+							var placeholder2_txt=$("#placeholder2_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-145 .ulp-input").attr('placeholder',placeholder2_txt);
+						}
+						
+						
+						
+						function button1_color()
+						{
+							var fcolor="#"+$("#button1_color").val();
+							//alert(bgcolor);
+							$("#ulp-layer-146 .ulp-inherited").css("color",fcolor);
+                                                       $("#spnid").css("color",fcolor);
+						}
+						function button1_bkgcolor()
+						{
+							var button1_bkgcolor="#"+$("#button1_bkgcolor").val();
+							//alert(button1_bkgcolor);
+							$("#ulp-layer-146 .ulp-inherited").css('background',button1_bkgcolor);
+						}
+						function button1_txt()
+						{
+							var button1_txt=$("#button1_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-146 .ulp-inherited span").html(button1_txt);
+						}
+						function layer4_color()
+						{
+							var fcolor="#"+$("#layer4_color").val();
+							//alert(bgcolor);
+							$("#ulp-layer-147").css("color",fcolor);
+                                                        $("#info").css("color",fcolor);
+						}
+						function layer4_txt()
+						{
+							var layer4_txt=$("#layer4_txt").val();
+							//alert(bgcolor);
+							$("#ulp-layer-147 span").html(layer4_txt);
+						}
+						function buttonclose_bkgcolor()
+						{
+							var bkgcolor="#"+$("#buttonclose_bkgcolor").val();
+							//alert(bgcolor);
+							$("#ulp-layer-148").css("background-color",bkgcolor);
+						}
+						
+						function macimgchange(urldata)
+						{
+							var imgurl=$("#ulp-layer-139 img").attr("src");
+									
+							$("#ulp-layer-139 img").attr("src",urldata);
+						}
+					
+						
+						function updateform()
+						{
+							var popupform= $("#popupform").html();
+							
+							$.ajax({
+							type: "post",
+							url: 'animatemaster/updatepop1.php',
+							data: {
+							popupform: popupform,
+							},			
+							success: function(response) {
+								alert(response);
+							},
+							error:function 
+							(XMLHttpRequest, textStatus, errorThrown) {
+							}
+							});  
+							
+						}
+						</script>
+

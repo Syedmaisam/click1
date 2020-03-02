@@ -1,0 +1,27 @@
+[26-Feb-2015 05:57:43 UTC] PHP Warning:  Missing argument 1 for Database::Database(), called in /home/clikstt/public_html/click/config/config.php on line 64 and defined in /home/clikstt/public_html/click/database/class_database_dbl.php on line 45
+[26-Feb-2015 05:57:43 UTC] PHP Warning:  Missing argument 2 for Database::Database(), called in /home/clikstt/public_html/click/config/config.php on line 64 and defined in /home/clikstt/public_html/click/database/class_database_dbl.php on line 45
+[26-Feb-2015 05:57:43 UTC] PHP Warning:  Missing argument 3 for Database::Database(), called in /home/clikstt/public_html/click/config/config.php on line 64 and defined in /home/clikstt/public_html/click/database/class_database_dbl.php on line 45
+[26-Feb-2015 05:57:43 UTC] PHP Warning:  Missing argument 4 for Database::Database(), called in /home/clikstt/public_html/click/config/config.php on line 64 and defined in /home/clikstt/public_html/click/database/class_database_dbl.php on line 45
+[02-May-2015 07:08:41 UTC] PHP Fatal error:  Call to undefined method ipaddr_Controller::SaveFormPollAnswerCountByRandomLink() in /home/clikstt/public_html/click/ajax/ipaddress/AnswerCount.php on line 11
+[10-Jul-2015 11:28:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/clikstt/public_html/click/ajax/ipaddress/AnswerCount.php on line 2
+[10-Jul-2015 11:28:40 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/clikstt/public_html/click/ajax/ipaddress/AnswerCount.php on line 2
+[04-Feb-2016 15:04:09 UTC] PHP Warning:  PHP Startup: suhosin: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[04-Feb-2016 15:04:09 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[04-Feb-2016 15:04:09 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[04-Feb-2016 15:04:09 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0

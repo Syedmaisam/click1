@@ -1,0 +1,192 @@
+body
+{
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px!important;
+    margin: 0;
+}
+.ulp-content {
+    position: relative;
+}
+.ulp-window {
+    text-align: left;
+}
+#ulp-layer-139 {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 30px rgba(32, 32, 32, 1);
+    text-align: left;
+    z-index: 1000002;
+}
+#ulp-layer-139, #ulp-layer-139 p, #ulp-layer-139 a, #ulp-layer-139 span, #ulp-layer-139 li, #ulp-layer-139 input, #ulp-layer-139 button, #ulp-layer-139 textarea {
+    color: #000000;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+ulp-layer img {
+    border: medium none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+}
+img {
+    max-width: 100%;
+}
+#ulp-layer-140 {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    z-index: 1000006;
+}
+#ulp-layer-140, #ulp-layer-140 p, #ulp-layer-140 a, #ulp-layer-140 span, #ulp-layer-140 li, #ulp-layer-140 input, #ulp-layer-140 button, #ulp-layer-140 textarea {
+    color: #000000;
+    font-family: "arial",arial;
+    font-weight: 400;
+}
+.ulp-layer {
+    box-sizing: border-box;
+    line-height: 1.475;
+    position: absolute;
+}
+#ulp-layer-141 {
+    text-align: left;
+    z-index: 1000007;
+}
+table
+{
+	margin:20px;
+	background:#f8f8f8;
+	
+}
+table td
+{
+	padding:10px;
+	border:1px solid #ccc;
+}
+table td label
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+}
+table td input[type='text']
+{
+	border:none;
+	padding:10px;
+	font-size:12px;
+	font-weight:normal;
+	border:1px solid #ccc;
+	width:300px;
+}
+table td textarea
+{
+	width:300px;
+	font-size:12px;
+}
+
+*{
+  font-family:'Helvetica Neue',Helvetica, sans-serif;
+  font-size:14px;
+  margin:0;
+}
+
+.container{
+  width:400px;
+  display:block;
+  margin:0 auto;
+  box-shadow:0 2px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+.chat-box .message-box{
+  padding:18px 0 10px;
+  clear:both;
+font-size:14px!important;
+}
+.message-box .picture{
+  float:left;
+  width:50px;
+  display:block;
+  padding-right:10px;
+}
+.picture img{
+  width:43px;
+  height:48px;
+  border-radius:5px;
+}
+.picture span{
+  font-weight:bold;
+  font-size:12px;
+  clear:both;
+  display:block;
+  text-align:center;
+  margin-top:3px;
+}
+.message{
+  background:#fff;
+  display:inline-block;
+  padding:13px;
+  width:274px;
+  border-radius:2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  position:relative;
+}
+.message:before{
+  content:"";
+  position:absolute;
+  display:block;
+  left:0;
+  border-right:6px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom:6px solid transparent;
+  top:10px;
+  margin-left:-6px;
+}
+.message span{
+  color:#555;
+  font-weight:bold;
+}
+.message p{
+  padding-top:5px;
+}
+.message-box.right-img .picture{
+  float:right;
+  padding:0;
+  padding-left:10px;
+}
+.message-box.right-img .picture img{
+  float:right;
+}
+.message-box.right-img .message:before{
+  left:100%;
+  margin-right:6px;
+  margin-left:0;
+  border-right:6px solid transparent;
+  border-left:6px solid #fff;
+  border-top: 6px solid transparent;
+  border-bottom:6px solid transparent;
+}
+.enter-message{
+  padding:13px 0px;
+font-size:13px;
+}
+.enter-message input{
+  border:none;
+  padding:10px 12px;
+  background:#d3d3d3;
+  width:260px;
+  border-radius:2px;
+ font-size:13px!important;
+}
+.enter-message a.send{
+  padding:10px 15px;
+  background:#6294c2;
+  border-radius:2px;
+  float:right;
+}

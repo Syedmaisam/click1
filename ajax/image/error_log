@@ -1,0 +1,4 @@
+[30-Jan-2015 12:45:22 UTC] PHP Fatal error:  Call to undefined method getHistoryController::getImagedata() in /home/clikstt/public_html/click/ajax/image/getImageData.php on line 11
+[30-Jan-2015 12:46:08 UTC] PHP Fatal error:  Call to undefined method getHistoryController::getImagedata() in /home/clikstt/public_html/click/ajax/image/getImageData.php on line 11
+[04-Dec-2015 20:54:32 UTC] PHP Warning:  POST Content-Length of 8473251 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[04-Dec-2015 20:57:37 UTC] PHP Warning:  POST Content-Length of 8473345 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
